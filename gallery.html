@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Tristan Clément</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="./img/favicon.svg" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/masonry.pkgd.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <a href="./index.html"><img src="./img/favicon.svg" alt="Retour à l'accueil"></a>
+            <a href="./about.html">À propos</a>
+            <a class="current" href="./gallery.html">Mes travaux</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+        <ul class="galleryNav">
+            <li>
+                <a href="#design"><img src="./img/nav/ico_design.svg" alt="Graphisme"></a>
+                <i></i>
+            </li>
+            <li>
+                <a href="#photo"><img src="./img/nav/ico_photo.svg" alt="Photographie"></a>
+                <i></i>
+            </li>
+            <li>
+                <a href="#video"><img src="./img/nav/ico_video.svg" alt="Vidéo"></a>
+                <i></i>
+            </li>
+            <li>
+                <a href="#sound"><img src="./img/nav/ico_sound.svg" alt="Production audio"></a>
+                <i></i>
+            </li>
+        </ul>
+        <div id="mediaViewer">
+            <i><img src="./img/cross_black.svg" alt="Close"></i>
+            <i id="arrow-left"><img src="./img/arrow_left.svg" alt="Previous"></i>
+            <i id="arrow-right"><img src="./img/arrow_right.svg" alt="Next"></i>
+            <img src="./" alt="">
+            <video controls>
+                <source src="./" type="video/mp4">
+            </video>
+            <h4>Title</h4>
+        </div>
+        <section class="gallerySection" id="design">
+            <h2>Graphisme</h2>
+            <div class="grid">
+                <div class="grid-sizer"></div>
+            </div>
+        </section>
+        <section class="gallerySection" id="photo">
+            <h2>Photographie</h2>
+            <div class="grid">
+                <div class="grid-sizer"></div>
+            </div>
+        </section>
+        <section class="gallerySection" id="video">
+            <h2>Vidéo</h2>
+            <div class="grid">
+                <div class="grid-sizer"></div>
+            </div>
+        </section>
+        <section class="gallerySection" id="sound">
+            <h2>Création Sonore</h2>
+            <div id="audioPlaylists">
+                <h3>Émissions radio et podcasts</h3>
+                <iframe class="iframe"
+                    src="https://w.soundcloud.com/player/?url=https://soundcloud.com/tristan-clement-633191934/sets/chroniques-radio-tristan-clement&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=true&amp;show_artwork=true&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=false&amp;start_track=0&amp;callback=true"></iframe>
+                <h3>Expérimentations musicales</h3>
+                <iframe class="iframe"
+                    src="https://w.soundcloud.com/player/?url=https://soundcloud.com/tristan-clement-633191934/sets/petits-projets-musicaux&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=true&amp;show_artwork=true&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=false&amp;start_track=0&amp;callback=true"></iframe>
+                <h3>EP : Session 20</h3>
+                <iframe class="iframe"
+                    src="https://w.soundcloud.com/player/?url=https://soundcloud.com/tristan-clement-633191934/sets/afternoon-sessions&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=true&amp;show_artwork=true&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=false&amp;start_track=0&amp;callback=true"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

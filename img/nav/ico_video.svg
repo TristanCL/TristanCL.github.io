@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 280 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-87.1899,0)">
+        <g id="Exports" transform="matrix(0.145609,0,0,0.1854,-780.855,0)">
+            <rect x="5961.5" y="0" width="1920" height="1080" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="5961.5" y="0" width="1920" height="1080"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(4.99737,0,0,3.92481,-6911.73,-1509.05)">
+                    <g transform="matrix(1.37427,0,0,1.37427,-1450.61,-355.627)">
+                        <path d="M2930,538.553L3209.57,538.553L3209.57,738.785L2930,738.785L2930,538.553ZM2937.28,590.341L2937.28,731.508L3202.29,731.508L3202.29,590.341L2937.28,590.341ZM3202.29,550.091L3169.32,583.065L3202.29,583.065L3202.29,550.091ZM2937.28,545.83L2937.28,583.065L2973.48,583.065L2973.48,545.83L2937.28,545.83ZM3029.9,545.83L2992.66,583.065L3030.45,583.065L3067.68,545.83L3029.9,545.83ZM3088.89,545.83L3051.66,583.065L3089.11,583.065L3126.35,545.83L3088.89,545.83ZM3147.56,545.83L3110.33,583.065L3148.11,583.065L3185.34,545.83L3147.56,545.83ZM2981.48,545.83L2981.48,573.033L3008.69,545.83L2981.48,545.83Z"/>
+                    </g>
+                    <g transform="matrix(1.74552,0,0,1.74552,-2307.51,-655.059)">
+                        <text x="2858.69px" y="719.773px" style="font-family:'FuturaBT-Heavy', 'Futura Hv BT', sans-serif;font-size:79.295px;">03</text>
+                    </g>
+                    <g transform="matrix(1.45037,0,0,1.45037,-1407.01,-483.005)">
+                        <circle cx="2770.25" cy="622.655" r="8.992"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
