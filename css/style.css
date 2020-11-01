@@ -83,9 +83,7 @@ section {
 }
 
 /* NAVIGATION */
-#indexBurger,
-#burger,
-#navCross {
+.phoneOnly {
     display: none;
 }
 
@@ -124,16 +122,16 @@ nav img {
     height: auto;
 }
 
-nav a:nth-child(4) {
-    margin-right: 25%;
-}
-
-nav a:nth-child(2) {
+nav a:nth-child(3) {
     margin-left: 25%;
 }
 
-nav a:nth-child(3) {
+nav a:nth-child(4) {
     margin: 0 auto 0 auto;
+}
+
+nav a:nth-child(5) {
+    margin-right: 25%;
 }
 
 nav a:not(:first-child):after {
@@ -565,7 +563,7 @@ iframe {
     }
 }
 
-@media screen and (min-width: 768px) and (orientation: portrait) {
+@media (min-width: 768px) and (orientation: portrait) {
 
     /* POLICE */
     h2 {
@@ -578,7 +576,7 @@ iframe {
 
     /* NAVIGATION */
     nav a {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     nav a:first-child {
@@ -589,11 +587,11 @@ iframe {
         margin-right: 22%;
     }
 
-    nav a:nth-child(2) {
+    nav a:nth-child(3) {
         margin-left: 22%;
     }
 
-    nav a:nth-child(3) {
+    nav a:nth-child(4) {
         margin: 0 auto 0 auto;
     }
 
@@ -675,18 +673,52 @@ iframe {
 }
 
 @media screen and (max-width: 576px) {
+    .phoneOnly {
+        display: block;
+    }
 
     /* POLICE */
     /* NAVIGATION */
-    .indexNav {
-        background-color: black;
+    nav {
+        transform: translateX(-100vw);
+        transition: 0.4s;
+        height: 100%;
+        flex-direction: column;
     }
 
-    #indexBurger {
-        display: block;
+    #burger {
         position: fixed;
-        top: 2%;
-        left: 2%;
+        z-index: 2;
+        width: 8%;
+        height: auto;
+        top: 3%;
+        left: 5%;
+    }
+
+    #burger:active,
+    #navCross:active {
+        transform: scale(0.95);
+    }
+
+    nav a:first-child {
+        display: none;
+    }
+
+    nav a {
+        margin: 25px 0 25px 0 !important;
+        font-size: 1.5em;
+    }
+
+    #navCross {
+        position: absolute;
+        top: 3%;
+        right: 5%;
+        width: 7%;
+        height: auto;
+    }
+
+    .indexNav {
+        background-color: #73898F;
     }
 
     /* HOME */

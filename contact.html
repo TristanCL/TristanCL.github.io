@@ -4,17 +4,21 @@
 <head>
     <title>Tristan Clément</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./img/favicon.svg" />
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
     <main>
+        <i id="burger"><img src="./img/burger_black.svg" alt="Menu de navigation"></i>
         <nav>
             <a href="./index.html"><img src="./img/favicon.svg" alt="Retour à l'accueil"></a>
+            <a href="./index.html">Accueil</a>
             <a href="./about.html">À propos</a>
             <a href="./gallery.html">Mes travaux</a>
             <a class="current" href="./contact.html">Contact</a>
+            <i id="navCross"><img src="./img/cross_white.svg" alt="Quitter le menu"></i>
         </nav>
         <section id="contact">
             <h2>Contact</h2>
@@ -29,6 +33,7 @@
             </div>
         </section>
     </main>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
