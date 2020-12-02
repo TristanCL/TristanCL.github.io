@@ -84,7 +84,8 @@ li a {
     line-height: 2.2;
 }
 
-li a:hover {
+li a:hover,
+footer a:hover {
     color: #FFFF00;
     transition: .1s;
 }
@@ -112,6 +113,11 @@ footer {
 
 footer a {
     color: white;
+}
+
+footer strong {
+    color: #7F7F7F;
+    font-weight: normal;
 }
 
 @media screen and (max-width: 640px) {
